@@ -1,14 +1,14 @@
 # @leadnfe/rest-client
 
-> REST client services for different Ajax libraries
+> LeadNFe REST API Client
 
-## Installation
+## Instalação
 
 ```
 npm install @leadnfe/rest-client --save
 ```
 
-## Quick example
+## Exemplo
 
 ```js
 const rest = require('@leadnfe/rest-client');
@@ -17,9 +17,9 @@ app.configure(restClient.fetch(window.fetch));
 const messages = app.service('messages');
 ```
 
-## Documentation
+## Documentação
 
-Please refer to the [@leadnfe/rest-client documentation](https://api.leadnfe.com/docs/client/rest.html) for more details.
+Por favor utilize a documentação oficial [@leadnfe/rest-client documentation](https://api.leadnfe.com/docs/client/rest.html) para mais detalhes.
 
 ## License
 
