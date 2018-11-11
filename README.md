@@ -14,7 +14,7 @@ npm install @leadnfe/rest-client --save
 const rest = require('@leadnfe/rest-client');
 const restClient = rest('https://api.leadnfe.com/')
 app.configure(restClient.fetch(window.fetch));
-const messages = app.service('messages');
+const nfes = app.service('nfes');
 ```
 
 ## Documentação
