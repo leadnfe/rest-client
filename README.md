@@ -12,8 +12,6 @@ npm install @leadnfe/rest-client --save
 
 ```js
 const rest = require('@leadnfe/rest-client');
-
-const app = feathers();
 const restClient = rest('https://api.leadnfe.com/')
 app.configure(restClient.fetch(window.fetch));
 const messages = app.service('messages');
