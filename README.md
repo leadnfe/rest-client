@@ -19,7 +19,7 @@ const nfes = app.service('nfes');
 
 ## Documentação
 
-Por favor utilize a documentação oficial [@leadnfe/rest-client documentation](https://api.leadnfe.com/docs/client/rest.html) para mais detalhes.
+Por favor utilize a documentação oficial [@leadnfe/rest-client documentation](https://api.leadnfe.com/docs/#rest-api-client) para mais detalhes.
 
 ## License
 
